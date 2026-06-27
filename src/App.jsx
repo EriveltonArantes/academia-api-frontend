@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://academia-api.onrender.com";
+const apiBaseUrl = "https://academia-api-7k17.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
